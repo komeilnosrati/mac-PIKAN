@@ -11,7 +11,7 @@ Code and results for the paper
 mac-PIKAN adds the closed-form small-signal response of the linearized swing equations to a Chebyshev
 physics-informed Kolmogorov–Arnold network (c-PIKAN):
 
-$$\hat\delta(P,t) = \delta_{\mathrm{lin}}(P,t) + (t/T)^2\, N_\theta(P,t),$$
+$$\hat\delta(P,t) = \delta_{\mathrm{lin}}(P,t) + (t/T)^2 N_\theta(P,t),$$
 
 so both initial conditions, $\delta(0)$ and $\omega(0)$, hold exactly, and the network only learns the nonlinear
 correction. The models are compared on the single-machine infinite-bus (SMIB) benchmark of
