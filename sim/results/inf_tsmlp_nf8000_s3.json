@@ -1,0 +1,16 @@
+{
+ "arch": "tsmlp",
+ "params": 481,
+ "nf": 8000,
+ "seed": 3,
+ "error_u": 0.01162497460814935,
+ "nit": 1193,
+ "nfev": 1533,
+ "train_s": 81.56437921524048,
+ "predict_s": 0.0039327144622802734,
+ "best_traj": 0.0012812877294848437,
+ "worst_traj": 0.01696985914639878,
+ "P_best": 0.18,
+ "P_worst": 0.16686868686868686,
+ "msg": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+}

@@ -1,0 +1,16 @@
+{
+ "arch": "tsckan",
+ "params": 528,
+ "nf": 8000,
+ "seed": 4,
+ "error_u": 0.0052041194948148125,
+ "nit": 2244,
+ "nfev": 2456,
+ "train_s": 1242.9456310272217,
+ "predict_s": 0.1076195240020752,
+ "best_traj": 0.000579724591091229,
+ "worst_traj": 0.009378621533996606,
+ "P_best": 0.18,
+ "P_worst": 0.09111111111111111,
+ "msg": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+}

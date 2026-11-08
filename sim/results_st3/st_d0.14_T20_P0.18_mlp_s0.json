@@ -1,0 +1,16 @@
+{
+ "arch": "mlp",
+ "params": 481,
+ "nf": 8000,
+ "seed": 0,
+ "error_u": 0.018950030904765883,
+ "nit": 2023,
+ "nfev": 2341,
+ "train_s": 98.98796892166138,
+ "predict_s": 0.011850595474243164,
+ "best_traj": 0.0013613515684486167,
+ "worst_traj": 0.03219223083061027,
+ "P_best": 0.18,
+ "P_worst": 0.16989898989898988,
+ "msg": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH"
+}

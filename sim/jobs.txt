@@ -1,0 +1,121 @@
+python3 -W ignore repro.py inference --arch mlp --nf 8000 --seed 0|results/inf_nf8000_s0.json
+python3 -W ignore repro.py inference --arch bkan --nf 8000 --seed 0|results/inf_bkan_nf8000_s0.json
+python3 -W ignore repro.py inference --arch ckan --nf 8000 --seed 0|results/inf_ckan_nf8000_s0.json
+python3 -W ignore repro.py inference --arch tsmlp --nf 8000 --seed 0|results/inf_tsmlp_nf8000_s0.json
+python3 -W ignore repro.py inference --arch tsckan --nf 8000 --seed 0|results/inf_tsckan_nf8000_s0.json
+python3 -W ignore repro.py inference --arch mlp --nf 8000 --seed 1|results/inf_nf8000_s1.json
+python3 -W ignore repro.py inference --arch bkan --nf 8000 --seed 1|results/inf_bkan_nf8000_s1.json
+python3 -W ignore repro.py inference --arch ckan --nf 8000 --seed 1|results/inf_ckan_nf8000_s1.json
+python3 -W ignore repro.py inference --arch tsmlp --nf 8000 --seed 1|results/inf_tsmlp_nf8000_s1.json
+python3 -W ignore repro.py inference --arch tsckan --nf 8000 --seed 1|results/inf_tsckan_nf8000_s1.json
+python3 -W ignore repro.py inference --arch mlp --nf 8000 --seed 2|results/inf_nf8000_s2.json
+python3 -W ignore repro.py inference --arch bkan --nf 8000 --seed 2|results/inf_bkan_nf8000_s2.json
+python3 -W ignore repro.py inference --arch ckan --nf 8000 --seed 2|results/inf_ckan_nf8000_s2.json
+python3 -W ignore repro.py inference --arch tsmlp --nf 8000 --seed 2|results/inf_tsmlp_nf8000_s2.json
+python3 -W ignore repro.py inference --arch tsckan --nf 8000 --seed 2|results/inf_tsckan_nf8000_s2.json
+python3 -W ignore repro.py inference --arch mlp --nf 8000 --seed 3|results/inf_nf8000_s3.json
+python3 -W ignore repro.py inference --arch bkan --nf 8000 --seed 3|results/inf_bkan_nf8000_s3.json
+python3 -W ignore repro.py inference --arch ckan --nf 8000 --seed 3|results/inf_ckan_nf8000_s3.json
+python3 -W ignore repro.py inference --arch tsmlp --nf 8000 --seed 3|results/inf_tsmlp_nf8000_s3.json
+python3 -W ignore repro.py inference --arch tsckan --nf 8000 --seed 3|results/inf_tsckan_nf8000_s3.json
+python3 -W ignore repro.py inference --arch mlp --nf 8000 --seed 4|results/inf_nf8000_s4.json
+python3 -W ignore repro.py inference --arch bkan --nf 8000 --seed 4|results/inf_bkan_nf8000_s4.json
+python3 -W ignore repro.py inference --arch ckan --nf 8000 --seed 4|results/inf_ckan_nf8000_s4.json
+python3 -W ignore repro.py inference --arch tsmlp --nf 8000 --seed 4|results/inf_tsmlp_nf8000_s4.json
+python3 -W ignore repro.py inference --arch tsckan --nf 8000 --seed 4|results/inf_tsckan_nf8000_s4.json
+python3 -W ignore repro.py inference --arch mlp --nf 80000 --seed 0|results/inf_nf80000_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --nu 10 --out results_nu|results_nu/nu10_inf_nf8000_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --nu 10 --out results_nu|results_nu/nu10_inf_tsckan_nf8000_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --nu 10 --out results_nu|results_nu/nu10_inf_nf8000_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --nu 10 --out results_nu|results_nu/nu10_inf_tsckan_nf8000_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --nu 10 --out results_nu|results_nu/nu10_inf_nf8000_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --nu 10 --out results_nu|results_nu/nu10_inf_tsckan_nf8000_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --nu 10 --out results_nu|results_nu/nu10_inf_nf8000_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --nu 10 --out results_nu|results_nu/nu10_inf_tsckan_nf8000_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --nu 10 --out results_nu|results_nu/nu10_inf_nf8000_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --nu 10 --out results_nu|results_nu/nu10_inf_tsckan_nf8000_s4.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --nu 20 --out results_nu|results_nu/nu20_inf_nf8000_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --nu 20 --out results_nu|results_nu/nu20_inf_tsckan_nf8000_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --nu 20 --out results_nu|results_nu/nu20_inf_nf8000_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --nu 20 --out results_nu|results_nu/nu20_inf_tsckan_nf8000_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --nu 20 --out results_nu|results_nu/nu20_inf_nf8000_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --nu 20 --out results_nu|results_nu/nu20_inf_tsckan_nf8000_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --nu 20 --out results_nu|results_nu/nu20_inf_nf8000_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --nu 20 --out results_nu|results_nu/nu20_inf_tsckan_nf8000_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --nu 20 --out results_nu|results_nu/nu20_inf_nf8000_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --nu 20 --out results_nu|results_nu/nu20_inf_tsckan_nf8000_s4.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --nu 80 --out results_nu|results_nu/nu80_inf_nf8000_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --nu 80 --out results_nu|results_nu/nu80_inf_tsckan_nf8000_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --nu 80 --out results_nu|results_nu/nu80_inf_nf8000_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --nu 80 --out results_nu|results_nu/nu80_inf_tsckan_nf8000_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --nu 80 --out results_nu|results_nu/nu80_inf_nf8000_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --nu 80 --out results_nu|results_nu/nu80_inf_tsckan_nf8000_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --nu 80 --out results_nu|results_nu/nu80_inf_nf8000_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --nu 80 --out results_nu|results_nu/nu80_inf_tsckan_nf8000_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --nu 80 --out results_nu|results_nu/nu80_inf_nf8000_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --nu 80 --out results_nu|results_nu/nu80_inf_tsckan_nf8000_s4.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --nu 160 --out results_nu|results_nu/nu160_inf_nf8000_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --nu 160 --out results_nu|results_nu/nu160_inf_tsckan_nf8000_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --nu 160 --out results_nu|results_nu/nu160_inf_nf8000_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --nu 160 --out results_nu|results_nu/nu160_inf_tsckan_nf8000_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --nu 160 --out results_nu|results_nu/nu160_inf_nf8000_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --nu 160 --out results_nu|results_nu/nu160_inf_tsckan_nf8000_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --nu 160 --out results_nu|results_nu/nu160_inf_nf8000_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --nu 160 --out results_nu|results_nu/nu160_inf_tsckan_nf8000_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --nu 160 --out results_nu|results_nu/nu160_inf_nf8000_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --nu 160 --out results_nu|results_nu/nu160_inf_tsckan_nf8000_s4.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_mlp_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_tsckan_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_mlp_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_tsckan_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_mlp_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_tsckan_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_mlp_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_tsckan_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_mlp_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --d 0.11 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.11_T20_P0.18_tsckan_s4.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_mlp_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_tsckan_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_mlp_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_tsckan_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_mlp_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_tsckan_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_mlp_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_tsckan_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_mlp_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --d 0.12 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.12_T20_P0.18_tsckan_s4.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_mlp_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_tsckan_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_mlp_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_tsckan_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_mlp_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_tsckan_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_mlp_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_tsckan_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_mlp_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --d 0.13 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.13_T20_P0.18_tsckan_s4.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_mlp_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_tsckan_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_mlp_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_tsckan_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_mlp_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_tsckan_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_mlp_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_tsckan_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_mlp_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --d 0.14 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.14_T20_P0.18_tsckan_s4.json
+python3 -W ignore repro.py inference --arch mlp --seed 0 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_mlp_s0.json
+python3 -W ignore repro.py inference --arch tsckan --seed 0 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_tsckan_s0.json
+python3 -W ignore repro.py inference --arch mlp --seed 1 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_mlp_s1.json
+python3 -W ignore repro.py inference --arch tsckan --seed 1 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_tsckan_s1.json
+python3 -W ignore repro.py inference --arch mlp --seed 2 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_mlp_s2.json
+python3 -W ignore repro.py inference --arch tsckan --seed 2 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_tsckan_s2.json
+python3 -W ignore repro.py inference --arch mlp --seed 3 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_mlp_s3.json
+python3 -W ignore repro.py inference --arch tsckan --seed 3 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_tsckan_s3.json
+python3 -W ignore repro.py inference --arch mlp --seed 4 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_mlp_s4.json
+python3 -W ignore repro.py inference --arch tsckan --seed 4 --d 0.2 --T 20 --pmax 0.18 --out results_st3|results_st3/st_d0.2_T20_P0.18_tsckan_s4.json
+CKAN_W=7 python3 -W ignore repro.py inference --arch tsckan --seed 0 --out results_w7|results_w7/inf_tsckan_nf8000_s0.json
+CKAN_W=7 python3 -W ignore repro.py inference --arch tsckan --seed 1 --out results_w7|results_w7/inf_tsckan_nf8000_s1.json
+CKAN_W=7 python3 -W ignore repro.py inference --arch tsckan --seed 2 --out results_w7|results_w7/inf_tsckan_nf8000_s2.json
+CKAN_W=7 python3 -W ignore repro.py inference --arch tsckan --seed 3 --out results_w7|results_w7/inf_tsckan_nf8000_s3.json
+CKAN_W=7 python3 -W ignore repro.py inference --arch tsckan --seed 4 --out results_w7|results_w7/inf_tsckan_nf8000_s4.json

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# run_all: locks and logs of running jobs, your report
+*.lock/
+sim/logs/
+sim/my_results.txt
+sim/text_numbers.txt
+sim/summary_out.txt
+
+# LaTeX build files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+paper/paper.pdf
+
+# local files, not part of the repository
+results_laptop.zip
+submission/
+
+# paper source and drawings: added with the arXiv version
+paper/paper.tex
+paper/refs.bib
+paper/fig/Fig1.jpg
+paper/fig/Fig2.png
