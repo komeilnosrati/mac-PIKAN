@@ -2,9 +2,11 @@
 
 Code and results for the paper
 
-> K. Nosrati, M. Ghorbani, A. Tepljakov, E. Petlenkov, and J. Belikov
+> K. Nosrati, M. Ghorbani, A. Tepljakov, E. Petlenkov, and J. Belikov,
 > "Modal-Augmented Chebyshev Physics-Informed Kolmogorov–Arnold Networks for Power Systems,"
-> submitted to the IEEE PES General Meeting 2027.
+> arXiv:2611.13340, 2026. Submitted to the 2027 IEEE PES General Meeting.
+
+**Paper:** [arXiv:2611.13340](https://arxiv.org/abs/2611.13340)
 
 **Paper:** the arXiv version will be linked here.
 
