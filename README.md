@@ -120,7 +120,20 @@ original code.
 
 ## Citation
 
-If you use this code, please cite the paper. The BibTeX entry will be added here with the arXiv version.
+If you use this code, please cite:
+
+```bibtex
+@misc{nosrati2026macpikan,
+  title         = {Modal-Augmented {C}hebyshev Physics-Informed {K}olmogorov--{A}rnold Networks for Power Systems},
+  author        = {Nosrati, Komeil and Ghorbani, Majid and Tepljakov, Aleksei and Petlenkov, Eduard and Belikov, Juri},
+  year          = {2026},
+  eprint        = {2611.13340},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.SY},
+  note          = {Submitted to the 2027 IEEE PES General Meeting},
+  url           = {https://arxiv.org/abs/2611.13340}
+}
+```
 
 ## License
 
